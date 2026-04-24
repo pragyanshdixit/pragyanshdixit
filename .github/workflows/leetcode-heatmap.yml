@@ -2,25 +2,27 @@ name: Generate LeetCode Heatmap
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # daily at midnight UTC
-  workflow_dispatch:         # manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          ref: main
+      - uses: actions/checkout@v4
 
-      - name: Generate LeetCode heatmap
-        run: npx leetcode-heatmap@latest --user pragyanshdixit --output leetcode-heatmap.svg --theme dark --border 0
+      - name: Generate Heatmap
+        run: |
+          git clone https://github.com/ashutosh00710/leetcode-heatmap.git
+          cd leetcode-heatmap
+          npm install
+          node index.js pragyanshdixit > ../leetcode-heatmap.svg
 
-      - name: Commit and push if changed
+      - name: Commit and push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add leetcode-heatmap.svg
-          git diff --staged --quiet || git commit -m "Update LeetCode heatmap"
+          git diff --staged --quiet || git commit -m "Update heatmap"
           git push

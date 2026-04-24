@@ -281,15 +281,7 @@ class PragyanshDixit:
 
 ---
 
-## 🏆 GitHub Trophies
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=pragyanshdixit&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" width="100%" />
-
-</div>
-
----
 
 ## 🎖️ Certifications
 
@@ -308,19 +300,6 @@ class PragyanshDixit:
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pragyanshdixit/pragyanshdixit/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pragyanshdixit/pragyanshdixit/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/pragyanshdixit/pragyanshdixit/output/github-contribution-grid-snake.svg" />
-</picture>
-
-</div>
-
----
 
 ## 🌐 Connect With Me
 

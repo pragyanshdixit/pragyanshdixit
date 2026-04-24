@@ -240,17 +240,6 @@ class PragyanshDixit:
 
 <br/><br/>
 
-<!-- Stats badge -->
-[![LeetCode Stats](https://leetcode-badge.haozhe.dev/api/v1/stats?username=pragyanshdixit&theme=dark)](https://leetcode.com/pragyanshdixit/)
-
-<br/>
-
-<!-- Heatmap -->
-![LeetCode Heatmap](https://raw.githubusercontent.com/pragyanshdixit/pragyanshdixit/main/leetcode-heatmap.svg)
-
-<br/>
-
-
 
 <a href="https://leetcode.com/pragyanshdixit/">
   <img src="https://leetcard.jacoblin.cool/pragyanshdixit?theme=dark&font=JetBrains%20Mono&border=0&radius=10&sheets=https://unpkg.com/leetcode-card-dark-theme@latest/src/style.css" alt="LeetCode Stats" width="490"/>

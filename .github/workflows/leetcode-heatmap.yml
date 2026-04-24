@@ -2,25 +2,20 @@ name: Generate LeetCode Heatmap
 
 on:
   schedule:
-    - cron: "0 0 * * *"      # runs every day at midnight UTC
-  workflow_dispatch:         # allows manual trigger
+    - cron: "0 0 * * *"      # daily at midnight UTC
+  workflow_dispatch:         # manual trigger
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          ref: main            # or your default branch
+          ref: main
 
       - name: Generate LeetCode heatmap
-        uses: JacobLinCool/leetcode-heatmap-action@v1
-        with:
-          username: pragyanshdixit
-          output: leetcode-heatmap.svg
-          theme: dark           # use 'light' for light theme
-          border: 0
+        run: npx leetcode-heatmap@latest --user pragyanshdixit --output leetcode-heatmap.svg --theme dark --border 0
 
       - name: Commit and push if changed
         run: |

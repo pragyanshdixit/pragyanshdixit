@@ -342,5 +342,5 @@ class PragyanshDixit:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,50:0a0f1e,100:0d0d0d&height=130&section=footer" />
 
 <div align="center">
-  <sub>⚡ Built with 🤖 AI & ❤️ by <a href="https://github.com/pragyanshdixit"><b>Pragyansh Dixit</b></a> — AI Engineer from Bareilly, India</sub>
+  <sub><a href="https://github.com/pragyanshdixit"><b>Pragyansh Dixit</b></a> — AI Engineer from Bareilly, India</sub>
 </div>
